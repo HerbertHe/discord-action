@@ -34,4 +34,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: release
           publish_dir: ./dist
+          enable_jekyll: true
 
