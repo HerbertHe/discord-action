@@ -26,7 +26,7 @@ jobs:
       - run: yarn build
       - name: move files
         run: |
-          mv ./yml/* ./dist/ && mv node_modules ./dist/ && mv LICENSE ./dist/ && mv README.md ./dist/
+          mv ./yml/* ./dist/ && mv node_modules ./dist/ && mv package.json ./dist/ && mv LICENSE ./dist/ && mv README.md ./dist/
 
       - name: Release
         uses: peaceiris/actions-gh-pages@v3

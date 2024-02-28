@@ -2,6 +2,7 @@
   "name": "discord-action",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:HerbertHe/discord-action.git",
   "author": "HerbertHe <Herbert.He0229@gmail.com>",
   "license": "MIT",
