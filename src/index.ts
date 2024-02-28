@@ -4,7 +4,7 @@ try {
     const webhook = core.getInput("webhook")
     const message = core.getInput("message")
 
-    await fetch(webhook, {
+    fetch(webhook, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
